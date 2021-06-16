@@ -7,7 +7,7 @@ node ('slave-10.1.110.52')
     }
     stage('Code sync') 
     {
-        git branch: 'master', url: 'https://github.com/aksinha0908/my-app.git'
+        git branch: 'master', url: 'https://github.com/aksinha0908/maven-project.git'
     }
     stage('Build')
     {
