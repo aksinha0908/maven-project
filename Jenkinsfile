@@ -16,7 +16,7 @@ node ('slave-10.1.110.52')
     }
     stage('Test')
     {
-        echo 'Code Test'
+        mvn 'test'
     }
     stage('Deploy')
     {
