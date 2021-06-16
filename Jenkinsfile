@@ -1,4 +1,4 @@
-node ('slave-10.1.110.52')
+node ('slave-10.1.110.53')
     {
          env.PATH = "/opt/maven3/bin/:$PATH"
     stage('Hello')
