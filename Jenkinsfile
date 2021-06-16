@@ -11,7 +11,8 @@ node ('slave-10.1.110.52')
     }
     stage('Build')
     {
-            sh 'mvn -B -DskipTests clean package'
+            sh 'mvn clean'
+            sh 'mvn package'
     }
     stage('Test')
     {
